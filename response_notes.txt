@@ -1,0 +1,8 @@
+part-time-job or full-time-job [2,1,0]
+hourly-wage or salary [2,1,0]
+associate-needed [1,0]
+bs-degree-needed or ms-or-phd-needed [0-none,1,2]
+licence-needed [1,0]
+1-year-experience-needed or 2-4-years-experience-needed or 5-plus-years-experience-needed [0-none,1,2,3]
+supervising-job [1,0]
+nan  [when all of above is 0]
