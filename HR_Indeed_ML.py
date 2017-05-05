@@ -5,6 +5,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import preprocessing, model_selection, metrics, ensemble
 from sklearn.preprocessing import LabelEncoder
 #import h2o
+
+#####################################################################################################################################################################################################
+#KEEP RULE BASED CHECKING FIRST LIKE IF FULL-TIME PRESENT IN JOB DESCRIPTION THEN FULL TIME ETC. IF AN OF THESE TERMS PRESENT THEN DO NOT USE MACHINE LEARNING ALGORITHM; SIMPLY GIVE THIS OUTPUT####
+#####################################################################################################################################################################################################
+
 import xgboost as xgb
 
 data=pd.DataFrame.from_csv("train.tsv",sep='\t', header=0,index_col=None)
